@@ -1,0 +1,151 @@
+{
+  "project": "Tiny Clause Eval (synthetic toy experiment)",
+  "mode": "baseline",
+  "model": null,
+  "timestamp_utc": "2026-11-09T15:36:45.048006+00:00",
+  "sample_size": 8,
+  "summary_counts": {
+    "answer_correct": 6,
+    "evidence_appears_in_policy": 8,
+    "gold_evidence_match": 7,
+    "strict_pass": 5
+  },
+  "summary_percent": {
+    "answer_correct": 75.0,
+    "evidence_appears_in_policy": 100.0,
+    "gold_evidence_match": 87.5,
+    "strict_pass": 62.5
+  },
+  "total_model_tokens": 0,
+  "limitations": "8 hand-written fictional cases; small convenience sample, strict evidence matching, no generalization or profitability claim.",
+  "cases": [
+    {
+      "id": "C01",
+      "gold_answer": "yes",
+      "predicted_answer": "yes",
+      "gold_evidence": "Customers may return unused items within 30 days of delivery.",
+      "predicted_evidence": "Customers may return unused items within 30 days of delivery.",
+      "scores": {
+        "valid_format": true,
+        "answer_correct": true,
+        "evidence_appears_in_policy": true,
+        "gold_evidence_match": true,
+        "strict_pass": true
+      },
+      "latency_ms": 0.0,
+      "usage": {}
+    },
+    {
+      "id": "C02",
+      "gold_answer": "no",
+      "predicted_answer": "no",
+      "gold_evidence": "Clearance purchases are not eligible for refunds.",
+      "predicted_evidence": "Clearance purchases are not eligible for refunds.",
+      "scores": {
+        "valid_format": true,
+        "answer_correct": true,
+        "evidence_appears_in_policy": true,
+        "gold_evidence_match": true,
+        "strict_pass": true
+      },
+      "latency_ms": 0.0,
+      "usage": {}
+    },
+    {
+      "id": "C03",
+      "gold_answer": "no",
+      "predicted_answer": "no",
+      "gold_evidence": "Cancellations inside 48 hours are nonrefundable.",
+      "predicted_evidence": "Workshop tickets are refundable only when canceled at least 48 hours before the workshop.",
+      "scores": {
+        "valid_format": true,
+        "answer_correct": true,
+        "evidence_appears_in_policy": true,
+        "gold_evidence_match": false,
+        "strict_pass": false
+      },
+      "latency_ms": 0.0,
+      "usage": {}
+    },
+    {
+      "id": "C04",
+      "gold_answer": "no",
+      "predicted_answer": "yes",
+      "gold_evidence": "Free delivery is available for orders totaling at least $50 before tax.",
+      "predicted_evidence": "Free delivery is available for orders totaling at least $50 before tax.",
+      "scores": {
+        "valid_format": true,
+        "answer_correct": false,
+        "evidence_appears_in_policy": true,
+        "gold_evidence_match": true,
+        "strict_pass": false
+      },
+      "latency_ms": 0.0,
+      "usage": {}
+    },
+    {
+      "id": "C05",
+      "gold_answer": "yes",
+      "predicted_answer": "yes",
+      "gold_evidence": "Employees may work remotely after written manager approval.",
+      "predicted_evidence": "Employees may work remotely after written manager approval.",
+      "scores": {
+        "valid_format": true,
+        "answer_correct": true,
+        "evidence_appears_in_policy": true,
+        "gold_evidence_match": true,
+        "strict_pass": true
+      },
+      "latency_ms": 0.0,
+      "usage": {}
+    },
+    {
+      "id": "C06",
+      "gold_answer": "unclear",
+      "predicted_answer": "unclear",
+      "gold_evidence": "Managers decide requests for flexible hours on a case-by-case basis.",
+      "predicted_evidence": "Managers decide requests for flexible hours on a case-by-case basis.",
+      "scores": {
+        "valid_format": true,
+        "answer_correct": true,
+        "evidence_appears_in_policy": true,
+        "gold_evidence_match": true,
+        "strict_pass": true
+      },
+      "latency_ms": 0.0,
+      "usage": {}
+    },
+    {
+      "id": "C07",
+      "gold_answer": "yes",
+      "predicted_answer": "yes",
+      "gold_evidence": "A member may claim one voucher per calendar year.",
+      "predicted_evidence": "A member may claim one voucher per calendar year.",
+      "scores": {
+        "valid_format": true,
+        "answer_correct": true,
+        "evidence_appears_in_policy": true,
+        "gold_evidence_match": true,
+        "strict_pass": true
+      },
+      "latency_ms": 0.0,
+      "usage": {}
+    },
+    {
+      "id": "C08",
+      "gold_answer": "unclear",
+      "predicted_answer": "no",
+      "gold_evidence": "The policy lists eligibility rules but does not specify whether international purchases qualify.",
+      "predicted_evidence": "The policy lists eligibility rules but does not specify whether international purchases qualify.",
+      "scores": {
+        "valid_format": true,
+        "answer_correct": false,
+        "evidence_appears_in_policy": true,
+        "gold_evidence_match": true,
+        "strict_pass": false
+      },
+      "latency_ms": 0.0,
+      "usage": {}
+    }
+  ]
+}

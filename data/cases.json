@@ -1,0 +1,58 @@
+[
+  {
+    "id": "C01",
+    "policy": "Customers may return unused items within 30 days of delivery.",
+    "question": "A customer received an unused item 12 days ago. Is a return allowed?",
+    "gold_answer": "yes",
+    "gold_evidence": "Customers may return unused items within 30 days of delivery."
+  },
+  {
+    "id": "C02",
+    "policy": "Clearance purchases are not eligible for refunds.",
+    "question": "A customer bought a clearance item yesterday. Is a refund allowed?",
+    "gold_answer": "no",
+    "gold_evidence": "Clearance purchases are not eligible for refunds."
+  },
+  {
+    "id": "C03",
+    "policy": "Workshop tickets are refundable only when canceled at least 48 hours before the workshop. Cancellations inside 48 hours are nonrefundable.",
+    "question": "A ticket holder canceled 24 hours before the workshop. Is the ticket refundable?",
+    "gold_answer": "no",
+    "gold_evidence": "Cancellations inside 48 hours are nonrefundable."
+  },
+  {
+    "id": "C04",
+    "policy": "Free delivery is available for orders totaling at least $50 before tax.",
+    "question": "An order costs $45 before tax and $51 after tax. Does it qualify for free delivery?",
+    "gold_answer": "no",
+    "gold_evidence": "Free delivery is available for orders totaling at least $50 before tax."
+  },
+  {
+    "id": "C05",
+    "policy": "Employees may work remotely after written manager approval.",
+    "question": "An employee received written manager approval by email. Is remote work allowed?",
+    "gold_answer": "yes",
+    "gold_evidence": "Employees may work remotely after written manager approval."
+  },
+  {
+    "id": "C06",
+    "policy": "Managers decide requests for flexible hours on a case-by-case basis.",
+    "question": "An employee submitted a request, but no decision has been communicated. Is the request approved?",
+    "gold_answer": "unclear",
+    "gold_evidence": "Managers decide requests for flexible hours on a case-by-case basis."
+  },
+  {
+    "id": "C07",
+    "policy": "A member may claim one voucher per calendar year.",
+    "question": "A member claimed a voucher in December 2025. Can the member claim another in January 2026?",
+    "gold_answer": "yes",
+    "gold_evidence": "A member may claim one voucher per calendar year."
+  },
+  {
+    "id": "C08",
+    "policy": "The policy lists eligibility rules but does not specify whether international purchases qualify.",
+    "question": "Does an international purchase qualify under this policy?",
+    "gold_answer": "unclear",
+    "gold_evidence": "The policy lists eligibility rules but does not specify whether international purchases qualify."
+  }
+]
